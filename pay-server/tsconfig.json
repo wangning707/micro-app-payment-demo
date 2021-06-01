@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node"
+        ],
+        "lib": [
+            "es5",
+            "es2015",
+            "es2016",
+            "es2017",
+            "es2018",
+            "ESNext"
+        ],
+        "baseUrl": ".",
+        "resolveJsonModule": true,
+        "outDir": "./server/",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": true
+    }
+}

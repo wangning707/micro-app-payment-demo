@@ -1,0 +1,5 @@
+<view class="intro">
+    <button bindtap="createOrder">创建订单</button>
+    <button bindtap="getOrderStatus">获取订单状态</button>
+    <button bindtap="pay">支付</button>
+</view>

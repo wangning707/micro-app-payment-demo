@@ -1,0 +1,13 @@
+{
+    "appid": "ttc039b6845f03e06c",
+    "salt": "riRyv2DXiVigbTDla6hrEi5bob1FmPTNpehoJfZj",
+    "port": 8003,
+    "domain": {
+        "address": "10.79.8.202",
+        "netmask": "255.255.252.0",
+        "family": "IPv4",
+        "mac": "14:7d:da:0f:59:c8",
+        "internal": false,
+        "cidr": "10.79.8.202/22"
+    }
+}

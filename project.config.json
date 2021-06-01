@@ -1,0 +1,22 @@
+{
+    "appid": "tt07e3715e98c9aac0",
+    "projectname": "默认小程序名",
+    "setting": {
+        "urlCheck": false,
+        "es6": true,
+        "newFeature": false,
+        "postcss": false,
+        "mockUpdate": false,
+        "minified": false,
+        "scripts": true
+    },
+    "scripts": {
+        "afterOpen": "npm i && npm run build && npm start",
+        "beforeCompile": ""
+    },
+    "condition": {
+        "miniprogram": {
+            "current": -1
+        }
+    }
+}

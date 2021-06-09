@@ -2,3 +2,4 @@ node_modules
 pay-server/server/*/**
 package-lock.json
 yarn.lock
+.DS_Store

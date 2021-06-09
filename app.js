@@ -7,7 +7,7 @@ App({
     return `http://${payConf.domain}:${payConf.port}`
   },
   post(path, data, query) {
-   
+
     return new Promise((resolve, reject) => {
       tt.request({
         method: 'POST',
@@ -23,12 +23,6 @@ App({
     })
   },
   onLaunch: function () {
-    const _this = this;
-    tt.showModal({
-      content: _this.getDomain(),
-      success: (res) => {
-        
-      }
-    });
+    console.log('当前服务地址::', this.getDomain())
   }
 })

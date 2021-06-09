@@ -17,6 +17,7 @@ Page({
   },
   createOrder() {
     const _this = this;
+    createOrderParams.out_order_no = `${Date.now()}`
     app.post('/create-order', {
       order: createOrderParams
     }).then(res => {
@@ -24,6 +25,10 @@ Page({
         data
       } = res;
       console.log('创建订单成功::', data)
+      tt.showModal({
+        title: '创建订单成功', // 内容
+        content: '请到控制台查看具体返回',
+      });
       this.setData({
         orderInfo: data.data
       })
@@ -38,6 +43,10 @@ Page({
       const {
         data
       } = res;
+      tt.showModal({
+        title: '查询订单成功', // 内容
+        content: '请到控制台查看具体返回',
+      });
       console.log('查询订单成功::', data)
     })
   },
